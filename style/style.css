@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#4EADF8 ;
+}
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 1em;
+}
+.site-header{
+background-color: #ffffff;
+}
+.code{
+    max-width: 20%;
+    margin-top: 1.1em;
+}
+
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.bar{
+    background-color: #CA2A1D;
+    overflow: hidden;
+}
+
+@media(min-width:768px){  
+    .site-header{
+        padding: 0.5em 0.5em;
+        margin: 0;
+    
+       }
+}
+.main-nav{
+    padding: 1.25em;
+}
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.375em;
+    padding: 1.25em;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+@media(max-width:568px){
+    .code {
+      width: 50%;
+      margin: 0.2em;
+    }
+    .main-div img{
+        width: 80%;
+    }
+    .entry a{
+        margin: 2em;
+
+    }
+
+}
+@media(min-width:776px){
+
+    .main-nav a{
+        display: inline;
+    }
+}
+
+@media(min-width:768px){
+    .main-div{
+    width: 70%;
+    float: left;
+    }
+    .side-dive{
+    width: 30%;    
+    float: right;
+    }
+}
+.main-div a{
+    color:black;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Varela Round";
+    margin: 5em 5em;
+    
+
+}
+.main-div img{
+    width: 50%;
+    margin: 1.5em 1.5em;
+    border-radius: 25%;
+    border: groove;
+}
