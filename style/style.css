@@ -64,11 +64,11 @@ background-color: #ffffff;
 
 @media(min-width:768px){
     .main-div{
-    width: 70%;
+    width: 85%;
     float: left;
     }
     .side-dive{
-    width: 30%;    
+    width: 15%;    
     float: right;
     }
 }
@@ -95,4 +95,16 @@ background-color: #ffffff;
     text-decoration: none;
     font-family: Verdana;
     margin: 0.5em 0.5em;
+}
+
+.side-div a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.375em;
+    padding: 1.25em;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 20%;
+    
 }
